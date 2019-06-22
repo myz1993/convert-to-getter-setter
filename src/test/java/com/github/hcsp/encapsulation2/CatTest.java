@@ -1,8 +1,10 @@
 package com.github.hcsp.encapsulation2;
 
 import java.lang.reflect.Field;
+import java.lang.reflect.Modifier;
 import java.util.Random;
 import java.util.UUID;
+import java.util.stream.Stream;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -19,7 +21,7 @@ public class CatTest {
 
         Assertions.assertEquals(name, cat.getName());
         Assertions.assertEquals(age, cat.getAge());
-        Assertions.assertTrue(cat.getCute());
+        Assertions.assertTrue(cat.isCute());
     }
 
     @Test
