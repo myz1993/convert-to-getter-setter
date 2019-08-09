@@ -7,4 +7,28 @@ public class Cat {
     public int age;
     /** 猫咪是否萌，true为萌，false为不萌 */
     public boolean cute;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setCute(boolean cute) {
+        this.cute = cute;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public boolean isCute() {
+        return cute;
+    }
 }
