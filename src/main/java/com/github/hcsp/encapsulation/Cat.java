@@ -9,7 +9,7 @@ public class Cat {
     private boolean cute;
 
     public String getName(){
-        return this.name==null?"":name;
+        return this.name==null?"":this.name;
     }
     public void setName(String name){
         this.name=name;
