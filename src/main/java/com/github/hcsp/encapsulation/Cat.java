@@ -32,9 +32,4 @@ public class Cat {
         this.cute = cute;
     }
 
-    public Cat(String name, int age, boolean cute) {
-        this.name = name;
-        this.age = age;
-        this.cute = cute;
-    }
 }
