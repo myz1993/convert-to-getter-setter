@@ -13,7 +13,7 @@ public class CatTest {
     public void hasGettersAndSetters() {
         String name = UUID.randomUUID().toString();
         int age = new Random().nextInt(10);
-        com.github.hcsp.encapsulation.Cat cat = new com.github.hcsp.encapsulation.Cat();
+        com.github.hcsp.encapsulation.Cat cat = new com.github.hcsp.encapsulation.Cat(name);
 
         cat.setName(name);
         cat.setAge(age);
