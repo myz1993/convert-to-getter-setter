@@ -14,7 +14,7 @@ public class Cat {
      */
     public boolean cute;
 
-    public String getName(Cat cat) {
+    public String getName() {
         return name;
     }
 
@@ -22,7 +22,7 @@ public class Cat {
         this.name = name;
     }
 
-    public int getAge(Cat cat) {
+    public int getAge() {
         return age;
     }
 
@@ -30,7 +30,7 @@ public class Cat {
         this.age = age;
     }
 
-    public boolean isCute(Cat cat) {
+    public boolean isCute() {
         return cute;
     }
 
