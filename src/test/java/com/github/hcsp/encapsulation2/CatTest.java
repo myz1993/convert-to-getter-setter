@@ -21,14 +21,14 @@ public class CatTest {
 
         Assertions.assertEquals(name, cat.getName());
         Assertions.assertEquals(age, cat.getAge());
-        Assertions.assertTrue(cat.getCute());
+        Assertions.assertTrue(cat.isCute());
     }
 
     @Test
     public void allFieldsArePrivate() {
         Assertions.assertTrue(
                 Stream.of(com.github.hcsp.encapsulation.Cat.class.getDeclaredFields())
-                        .map(Field::getModifiers)
-                        .allMatch(Modifier::isPrivate));
+                      .map(Field::getModifiers)
+                      .allMatch(Modifier::isPrivate));
     }
 }
