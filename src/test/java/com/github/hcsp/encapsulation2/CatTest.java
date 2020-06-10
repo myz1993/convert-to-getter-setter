@@ -21,7 +21,7 @@ public class CatTest {
 
         Assertions.assertEquals(name, cat.getName());
         Assertions.assertEquals(age, cat.getAge());
-        Assertions.assertTrue(cat.getCute());
+        Assertions.assertTrue(cat.isCute());
     }
 
     @Test

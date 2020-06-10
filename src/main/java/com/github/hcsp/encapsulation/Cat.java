@@ -24,7 +24,7 @@ public class Cat {
         this.age = age;
     }
 
-    public boolean getCute() {
+    public boolean isCute() {
         return cute;
     }
 
