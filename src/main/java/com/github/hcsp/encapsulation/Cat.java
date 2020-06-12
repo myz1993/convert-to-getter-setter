@@ -26,11 +26,11 @@ public class Cat {
         this.cute = cute;
     }
 
-    public String getName(String name) {
+    public String getName() {
         return this.name;
     }
 
-    public int getAge(int age) {
+    public int getAge() {
         return this.age;
     }
 
