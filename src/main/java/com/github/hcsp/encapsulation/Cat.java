@@ -22,7 +22,7 @@ public class Cat {
         this.age = age;
     }
 
-    private void setCute(boolean cute) {
+    public void setCute(boolean cute) {
         this.cute = cute;
     }
 
